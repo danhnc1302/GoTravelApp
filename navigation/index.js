@@ -13,8 +13,8 @@ export default function Navigation() {
             <Stack.Navigator screenOptions={{
                 headerShown: false
             }}>
-                <Stack.Screen name="HomeScreen" component={HomeScreen}/>
                 <Stack.Screen name="Discover" component={Discover}/>
+                <Stack.Screen name="HomeScreen" component={HomeScreen}/>
                 <Stack.Screen name="ItemScreen" component={ItemScreen}/>
             </Stack.Navigator>
         </NavigationContainer>
